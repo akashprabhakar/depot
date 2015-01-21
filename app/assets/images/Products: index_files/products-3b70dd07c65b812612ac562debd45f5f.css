@@ -1,0 +1,312 @@
+/* Global styles */
+/* START:notice */
+/* line 7, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#notice {
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+}
+
+/* END:notice */
+/* line 15, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+h1 {
+  font: 150% sans-serif;
+  color: #226;
+  border-bottom: 3px dotted #77d;
+}
+
+/* Styles for products/index */
+/* line 21, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list table {
+  border-collapse: collapse;
+}
+
+/* line 24, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+/* line 28, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-image {
+  width: 60px;
+  height: 70px;
+}
+
+/* line 32, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-description {
+  width: 60%;
+}
+
+/* line 35, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-description dl {
+  margin: 0;
+}
+
+/* line 38, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-description dt {
+  color: #244;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* line 43, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-description dd {
+  margin: 0;
+}
+
+/* line 46, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-actions {
+  font-size: x-small;
+  text-align: right;
+  padding-left: 1em;
+}
+
+/* line 51, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-line-even {
+  background: #e0f8f8;
+}
+
+/* line 54, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#product-list .list-line-odd {
+  background: #f8b0f8;
+}
+
+/* START:mainlayout */
+/* Styles for main page */
+/* line 59, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#banner {
+  background: #9c9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: #282;
+  text-align: center;
+}
+
+/* line 68, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#banner img {
+  float: left;
+}
+
+/* line 71, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#columns {
+  background: #141;
+}
+
+/* line 74, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#main {
+  margin-left: 13em;
+  padding-top: 4ex;
+  padding-left: 2em;
+  background: white;
+}
+
+/* line 80, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#side {
+  float: left;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 12em;
+  background: #141;
+}
+
+/* line 88, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#side a {
+  color: #bfb;
+  font-size: small;
+}
+
+/* END:mainlayout */
+/* An entry in the store catalog */
+/* line 94, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry {
+  overflow: auto;
+  margin-top: 1em;
+  border-bottom: 1px dotted #77d;
+}
+
+/* line 99, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .title {
+  font-size: 120%;
+  font-family: sans-serif;
+}
+
+/* line 103, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry img {
+  width: 75px;
+  float: left;
+}
+
+/* line 107, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry h3 {
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #227;
+}
+
+/* line 112, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry p {
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+
+/* line 116, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry .price-line {
+  clear: both;
+}
+
+/* line 119, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry .add-to-cart {
+  position: relative;
+}
+
+/* line 122, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry .price {
+  color: #44a;
+  font-weight: bold;
+  margin-right: 2em;
+}
+
+/* START:inline */
+/* line 128, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#store .entry form, #store .entry form div {
+  display: inline;
+}
+
+/* END:inline */
+/* START:cartmain */
+/* Styles for the cart in the main page */
+/* line 134, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.cart-title {
+  font: 120% bold;
+}
+
+/* line 137, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.item-price, .total-line {
+  text-align: right;
+}
+
+/* line 140, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.total-line .total-cell {
+  font-weight: bold;
+  border-top: 1px solid #595;
+}
+
+/* END:cartmain */
+/* START:cartside */
+/* Styles for the cart in the sidebar */
+/* line 147, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#cart, #cart table {
+  font-size: smaller;
+  color: white;
+}
+
+/* line 151, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#cart table {
+  border-top: 1px dotted #595;
+  border-bottom: 1px dotted #595;
+  margin-bottom: 10px;
+}
+
+/* END:cartside */
+/* START:form */
+/* Styles for order form */
+/* line 159, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.depot-form fieldset {
+  background: #efe;
+}
+
+/* line 162, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.depot-form legend {
+  color: #dfd;
+  background: #141;
+  font-family: sans-serif;
+  padding: 0.2em 1em;
+}
+
+/* line 168, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.depot-form label {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+
+/* line 176, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.depot-form select, .depot-form textarea, .depot-form input {
+  margin-left: 0.5em;
+}
+
+/* line 179, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.depot-form .submit {
+  margin-left: 4em;
+}
+
+/* line 182, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.depot-form div {
+  margin: 0.5em 0;
+}
+
+/* END:form */
+/* The error box */
+/* line 187, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.fieldWithErrors {
+  padding: 2px;
+  background-color: #EEFFEE;
+  display: inline;
+}
+
+/* line 192, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.fieldWithErrors * {
+  background-color: red;
+}
+
+/* line 195, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 203, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 212, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+/* line 217, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* START:i18n */
+/* line 222, /home/likewise-open/ANNETSITE/1846/Desktop/Ruby/depot/app/assets/stylesheets/products.scss */
+.locale {
+  float: right;
+  padding-top: 0.2em;
+}
+
+/* END:i18n */
